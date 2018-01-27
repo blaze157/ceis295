@@ -25,6 +25,7 @@ int Dictionary::hash(std::string word)
 	return hash;
 }
 
+template <class Word>
 void Dictionary::addWord(std::string word)
 {
 	Word newWord;
@@ -34,6 +35,8 @@ void Dictionary::addWord(std::string word)
 
 	words.push_back(newWord);
 }
+
+template <class Word>
 bool Dictionary::validWord(std::string word)
 {
 	int wordHash = hash(word);
@@ -44,6 +47,62 @@ bool Dictionary::validWord(std::string word)
 			return true;
 		}
 	}
-
 	return false;
+}
+
+template <class Word>
+bool Dictionary<Word>::IsEmpty(int KeyWord)
+{
+	if (key >= 0 && key < hashSize)
+	{
+		return head[key] == NULL;
+	}
+	return true;
+}
+
+template<class Word>
+bool Dictionary<Word>::IsFull()
+{
+	try
+	{
+		node* location = new node;
+		delete location;
+		return false;
+	}
+	catch (std::bad_alloc&)
+	{
+		return true;
+	}
+}
+
+template<class Word>
+void Dictionary<Word>::Append(int key, Word NewWord)
+{
+	if (IsFull())
+	{
+		//std::cout<<"nAPPEND ERROR - HASH TABLE FULLn";
+	}
+	else
+	{
+		node* newNode = new node; // adds new node
+		newNode->currentItem = newItem;
+		newNode->next = NULL;
+		if (IsEmpty(key))
+		{
+			head[key] = newNode;
+		}
+		else
+		{
+			node* tempPtr = head[key];
+
+			while (tempPtr->next != NULL)
+			{
+				tempPtr = tempPtr->next;
+			}
+			tempPtr->next = newNode;
+		}
+		++bucketSize[key];
+		++totElems;
+	}
+
 }
