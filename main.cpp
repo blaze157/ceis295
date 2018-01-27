@@ -17,8 +17,11 @@ void correct(std::string word)
 {
 	while(!dictionary.validWord(word))
 	{
+		std::cout << "You are now in an infinate loop because the software is not finished." << std::endl;
+		std::cout << "Sorry about that." << std::endl;
 		//alter the word somehow
 	}
+	std::cout << "good word" << std::endl;
 }
 
 int main()

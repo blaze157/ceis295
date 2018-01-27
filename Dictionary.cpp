@@ -1,18 +1,28 @@
 #include "Dictionary.h"
 
-
-//Thinking it might work better as a function in main?
-template <class Word>
 std::string Dictionary::To_Lower_Case(std::string word)
 {
 	//converting everyword to its lowercase
 	for (unsigned c = 0; c < word.length(); ++c)
 	{
-		//using tolower functio for lower case conversion
+		//using tolower function for lower case conversion
 		word[c] = tolower(word[c]);
 	}
 	//returning the lowercase word
 	return word;
+}
+
+int Dictionary::hash(std::string word)
+{
+	To_Lower_Case(word);
+
+	//We can start out with sdbm because it's easy
+	int hash = 0;
+	for (int i = 0; i<word.length(); i++){
+	    hash = word[i] + (hash << 6) + (hash << 16) - hash;
+	}
+
+	return hash;
 }
 
 template <class Word>
