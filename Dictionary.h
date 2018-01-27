@@ -13,6 +13,8 @@ class Dictionary
 		int hash;
 	};
 
+	std::string To_Lower_Case(std::string word);
+
 	std::vector<Word> words;
 
 	int hash(std::string word);//some hashing algorythm
