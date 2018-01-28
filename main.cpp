@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <fstream>
 
 #include "Dictionary.h"
 
@@ -7,10 +8,12 @@ Dictionary dictionary;
 
 void loadDictionary()
 {
-	//this should probably load from a file eventually
-	dictionary.addWord("the");
-	dictionary.addWord("cat");
-	dictionary.addWord("bat");
+	std::ifstream in("dictionary.txt");
+	std::string word = "";
+	while(in >> word)
+	{
+		dictionary.addWord(word);
+	}
 }
 
 void correct(std::string word)

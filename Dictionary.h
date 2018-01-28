@@ -29,6 +29,7 @@ class Dictionary
 public:
 	void addWord(std::string word);
 	bool validWord(std::string word);//is word in dictionary?
+	int hash(std::string word);
 
 
 	//Constructor that initializes a hash table
