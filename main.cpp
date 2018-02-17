@@ -16,15 +16,62 @@ void loadDictionary()
 	}
 }
 
+//these return true on success
+bool swapChar(std::string word)
+{
+	
+}
+bool addChar(std::string word)
+{
+
+}
+bool deleteChar(std::string word)
+{
+	
+}
+bool replaceChar(std::string word)//I didn't test this but it should be close
+{
+	std::string originalWord = word;
+
+	int letter = 0;
+	do
+	{
+		word[letter]++;
+		if(word[letter] > 'z')
+		{
+			word[letter] = 'a';
+		}
+
+		if(dictionary.validWord(word))
+		{
+			std::cout << "Is " << word << " the correct word? y:n" << std::endl;
+			std::string answer;
+			std::cin >> answer;
+			if(answer == "y")
+			{
+				return true;
+			}
+		}	
+
+		if(word == originalWord &&  letter < word.length())
+		{
+			letter++;
+		}
+	}
+	while(word != originalWord);
+
+	return false;
+}
+
 void correct(std::string word)
 {
-	while(!dictionary.validWord(word))
+	if(!swapChar(word)
+	&&!addChar(word)
+	&&!deleteChar(word)
+	&&!replaceChar(word))
 	{
-		std::cout << "You are now in an infinate loop because the software is not finished." << std::endl;
-		std::cout << "Sorry about that." << std::endl;
-		//alter the word somehow
+		std::cout << "Could not correct word." << std::endl;
 	}
-	std::cout << "good word" << std::endl;
 }
 
 int main()
