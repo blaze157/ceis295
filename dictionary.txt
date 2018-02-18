@@ -69390,9 +69390,6 @@ Mk
 mkay
 mks
 ml
-mêlée
-mêlée's
-mêlées
 Mlle
 MM
 mm
@@ -69400,8 +69397,6 @@ Mme
 Mmes
 MN
 Mn
-Münchhausen
-Münchhausen's
 mnemonic
 mnemonically
 mnemonic's
@@ -79135,7 +79130,6 @@ PDQ
 Pd's
 PDT
 PE
-épée
 pea
 Peabody
 Peabody's
@@ -80332,8 +80326,6 @@ perverting
 pervert's
 perverts
 pervs
-épée's
-épées
 peseta
 peseta's
 pesetas

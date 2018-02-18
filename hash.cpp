@@ -1,6 +1,6 @@
 #include "Hash.h"
 using namespace std;
-
+#include <iostream>///////////////////////////
 HashTable::HashTable(int items) : m_nBuckets(items / MAX_LOAD_FACTOR)
 {
 	std::vector<int>::size_type size = m_nBuckets;
@@ -19,7 +19,8 @@ int HashTable::hash(string val)
 	{
 		sum += val[i];
 	}
-	return sum % m_nBuckets;
+	sum %= m_nBuckets;
+	return sum;
 }
 
 bool HashTable::insert(string val)

@@ -24,23 +24,27 @@ SpellChecker::SpellChecker(istream& wordlistfile)
 
 	// local variable init
 	stringstream ss;
-	int wordlist_size;
+	int wordlist_size = 0;
 	string line;
 	string word;
-
 	// get the size of the wordlist and create a hash table of apporpriate size
-	getline(wordlistfile, line);
-	ss << line;
-	ss >> wordlist_size;
+
+	while (getline(wordlistfile, line))
+	{
+		wordlist_size++;
+	}
 	m_wordlist = new HashTable(wordlist_size);
+
+	wordlistfile.clear();
+	wordlistfile.seekg(0, ios::beg);
 
 	// load words into the hashtable
 	while (getline(wordlistfile, line))
 	{
-		ss << line;
-		ss >> word;
-		transform(word.begin(), word.end(), word.begin(), ::toupper); // convert to upper case
-		m_wordlist->insert(word);
+		//ss << line;
+		//ss >> word;
+		transform(line.begin(), line.end(), line.begin(), ::toupper); // convert to upper case
+		m_wordlist->insert(line);
 	}
 }
 

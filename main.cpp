@@ -4,12 +4,6 @@
 #include "SpellChecker.h"
 using namespace std;
 
-void spellCheck(istream& inf, istream& wordlistfile, ostream& outf)
-{
-	SpellChecker checker = SpellChecker(wordlistfile);
-	checker.spellCheck(inf, outf);
-}
-
 int main()
 {
 	string word;
@@ -17,13 +11,18 @@ int main()
 	cin >> word;
 	ifstream wordlist(word);
 
+	cout << "Loading dictionary..." << endl;
+	SpellChecker checker(wordlist);
+
 	cout << "Enter a word to check, or enter \"quit\" to quit" << endl;
 	cin >> word;
 	while(word != "quit")
 	{
-		istringstream input(word);
-		spellCheck(input, wordlist, cout);
+		stringstream input(word);
+		checker.spellCheck(input, cout);
 		cout << "Enter a word to check, or enter \"quit\" to quit" << endl;
 		cin >> word;
 	}
+
+	wordlist.close();
 }
