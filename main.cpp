@@ -1,92 +1,29 @@
 #include <iostream>
-#include <string>
 #include <fstream>
+#include <sstream>
+#include "SpellChecker.h"
+using namespace std;
 
-#include "Dictionary.h"
-
-Dictionary dictionary;
-
-void loadDictionary()
+void spellCheck(istream& inf, istream& wordlistfile, ostream& outf)
 {
-	std::ifstream in("dictionary.txt");
-	std::string word = "";
-	while(in >> word)
-	{
-		dictionary.addWord(word);
-	}
-}
-
-//these return true on success
-bool swapChar(std::string word)
-{
-	
-}
-bool addChar(std::string word)
-{
-
-}
-bool deleteChar(std::string word)
-{
-	
-}
-bool replaceChar(std::string word)//I didn't test this but it should be close
-{
-	std::string originalWord = word;
-
-	int letter = 0;
-	do
-	{
-		word[letter]++;
-		if(word[letter] > 'z')
-		{
-			word[letter] = 'a';
-		}
-
-		if(dictionary.validWord(word))
-		{
-			std::cout << "Is " << word << " the correct word? y:n" << std::endl;
-			std::string answer;
-			std::cin >> answer;
-			if(answer == "y")
-			{
-				return true;
-			}
-		}	
-
-		if(word == originalWord &&  letter < word.length())
-		{
-			letter++;
-		}
-	}
-	while(word != originalWord);
-
-	return false;
-}
-
-void correct(std::string word)
-{
-	if(!swapChar(word)
-	&&!addChar(word)
-	&&!deleteChar(word)
-	&&!replaceChar(word))
-	{
-		std::cout << "Could not correct word." << std::endl;
-	}
+	SpellChecker checker = SpellChecker(wordlistfile);
+	checker.spellCheck(inf, outf);
 }
 
 int main()
 {
-	loadDictionary();
-	std::string word = "";
-	std::cout << "Enter a word or 0 to quit" << std::endl;
+	string word;
+	cout << "Enter a dictionary file to use (enter dictionary.txt if unsure)" << endl;
+	cin >> word;
+	ifstream wordlist(word);
 
-	while(word != "0")
+	cout << "Enter a word to check, or enter \"quit\" to quit" << endl;
+	cin >> word;
+	while(word != "quit")
 	{
-		std::cin >> word;
-		correct(word);
+		istringstream input(word);
+		spellCheck(input, wordlist, cout);
+		cout << "Enter a word to check, or enter \"quit\" to quit" << endl;
+		cin >> word;
 	}
-
-	std::cout << "Goodbye" << std::endl;
-
-	return 0;
 }
