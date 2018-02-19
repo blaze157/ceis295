@@ -26,7 +26,7 @@ SpellChecker::SpellChecker(istream& wordlistfile)
 	stringstream ss;
 	int wordlist_size = 0;
 	string line;
-	string word;
+	//string word;
 	// get the size of the wordlist and create a hash table of apporpriate size
 
 	while (getline(wordlistfile, line))
@@ -179,7 +179,15 @@ void SpellChecker::spellCheck(istream& inf, ostream& outf)
 			if (!m_wordlist->find(word))
 			{
 				this->suggest(word);
-				this->outputSuggestions(line, word, outf);
+
+				if(!m_suggestions.empty())
+				{
+					this->outputSuggestions(line, word, outf);
+				}
+				else
+				{
+					outf << "no corrections found." << endl;
+				}
 			}
 		}
 	}
