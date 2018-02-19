@@ -44,7 +44,10 @@ SpellChecker::SpellChecker(istream& wordlistfile)
 		//ss << line;
 		//ss >> word;
 		transform(line.begin(), line.end(), line.begin(), ::toupper); // convert to upper case
-		m_wordlist->insert(line);
+		if(!m_wordlist->insert(line))
+		{
+			cout << "error table is full" << endl;
+		}
 	}
 }
 

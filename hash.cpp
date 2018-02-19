@@ -14,13 +14,12 @@ HashTable::HashTable(int items) : m_nBuckets(items / MAX_LOAD_FACTOR)
 
 int HashTable::hash(string val)
 {
-	int sum = 0;
+	unsigned int long long sum = 0;
 	for (string::size_type i = 0; i < val.length(); i++)
 	{
-		sum += val[i];
+		sum = val[i] + (sum << 6) + (sum << 16) - sum;
 	}
-	sum %= m_nBuckets;
-	return sum;
+	return sum % m_nBuckets;
 }
 
 bool HashTable::insert(string val)
@@ -35,7 +34,8 @@ bool HashTable::insert(string val)
 			m_storage[bucket].used = true;
 			return true; // value inserted successfully
 		}
-		bucket = ++bucket % m_nBuckets;
+		++bucket;
+		bucket %= m_nBuckets;
 	}
 	return false; // No room in hash table!
 }
