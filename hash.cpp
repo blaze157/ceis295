@@ -1,6 +1,5 @@
 #include "Hash.h"
 using namespace std;
-#include <iostream>///////////////////////////
 HashTable::HashTable(int items) : m_nBuckets(items / MAX_LOAD_FACTOR)
 {
 	std::vector<int>::size_type size = m_nBuckets;
@@ -50,7 +49,9 @@ bool HashTable::find(string val)
 			return false; // there's nothing here
 		if (m_storage[bucket].val == val)
 			return true; // value found
-		bucket = ++bucket % m_nBuckets;
+
+		++bucket;
+		bucket %= m_nBuckets;
 	}
 	return false; // not found
 }

@@ -6241,8 +6241,6 @@ Atalanta
 Atalanta's
 Atari
 Atari's
-Atatürk
-Atatürk's
 Ataturk
 Ataturk's
 atavism
@@ -11784,10 +11782,8 @@ bogie's
 bogies
 bogon
 bogosity
-Bogotá
 Bogota
 Bogota's
-Bogotá's
 bog's
 bogs
 bogus
@@ -12394,8 +12390,6 @@ botchers
 botches
 botching
 botch's
-Boötes
-Boötes's
 both
 bother
 botheration
@@ -12529,9 +12523,6 @@ boutiques
 boutonniere
 boutonniere's
 boutonnieres
-boutonnière
-boutonnière's
-boutonnières
 bout's
 bouts
 bouzouki
@@ -14758,8 +14749,6 @@ buttress's
 butt's
 butts
 butty
-Buñuel
-Buñuel's
 buxom
 Buxtehude
 Buxtehude's
@@ -19127,12 +19116,6 @@ Chrysostom
 Chrysostom's
 Chrystal
 Chrystal's
-château
-château's
-châteaux
-châtelaine
-châtelaine's
-châtelaines
 chub
 chubbier
 chubbiest
@@ -19963,9 +19946,6 @@ client
 clientele
 clientele's
 clienteles
-clientèle
-clientèle's
-clientèles
 client's
 clients
 Cliff
@@ -21868,8 +21848,6 @@ compounded
 compounding
 compound's
 compounds
-compère
-compèred
 comprehend
 comprehended
 comprehending
@@ -21887,7 +21865,6 @@ comprehensiveness
 comprehensiveness's
 comprehensive's
 comprehensives
-compères
 compress
 compressed
 compresses
@@ -21899,7 +21876,6 @@ compressor
 compressor's
 compressors
 compress's
-compèring
 comprise
 comprised
 comprises
@@ -22478,9 +22454,6 @@ confrontations
 confronted
 confronting
 confronts
-confrère
-confrère's
-confrères
 Confucian
 Confucianism
 Confucianism's
@@ -24161,9 +24134,6 @@ Corteses
 Cortes's
 cortex
 cortex's
-cortège
-cortège's
-cortèges
 cortical
 cortices
 cortisone
@@ -25111,9 +25081,6 @@ craziness's
 crazing
 crazy
 crazy's
-crèche
-crèche's
-crèches
 creak
 creaked
 creakier
@@ -25692,9 +25659,6 @@ crotchet's
 crotchets
 crotchety
 crotch's
-croûton
-croûton's
-croûtons
 crouch
 crouched
 crouches
@@ -26182,7 +26146,6 @@ cupric
 cup's
 cups
 cur
-curaçao
 curability
 curability's
 curable
@@ -26899,11 +26862,9 @@ damson's
 damsons
 Dan
 Dana
-Danaë
 Danae
 Danae's
 Dana's
-Danaë's
 dance
 danced
 dancer
@@ -29245,9 +29206,6 @@ derrieres
 derringer
 derringer's
 derringers
-derrière
-derrière's
-derrières
 derv
 dervish
 dervishes
@@ -32443,8 +32401,6 @@ doping
 doping's
 doppelganger
 doppelgangers
-doppelgänger
-doppelgängers
 Doppler
 Doppler's
 Dora
@@ -33031,8 +32987,6 @@ drench
 drenched
 drenches
 drenching
-Dürer
-Dürer's
 Dresden
 Dresden's
 dress
@@ -33333,8 +33287,6 @@ drywall's
 D's
 Dschubba
 Dschubba's
-Düsseldorf
-Düsseldorf's
 DST
 DTP
 Du
@@ -33746,8 +33698,6 @@ Dvina
 Dvina's
 Dvorak
 Dvorak's
-Dvorák
-Dvorák's
 DVR
 DVR's
 DVRs
@@ -37005,8 +36955,6 @@ Ester
 ester
 Esterhazy
 Esterhazy's
-Esterházy
-Esterházy's
 Ester's
 ester's
 esters
@@ -38699,8 +38647,6 @@ fades
 fading
 fad's
 fads
-faïence
-faïence's
 faerie
 faerie's
 faeries
@@ -43485,8 +43431,6 @@ furtiveness
 furtiveness's
 Furtwangler
 Furtwangler's
-Furtwängler
-Furtwängler's
 fury
 fury's
 furze
@@ -44116,9 +44060,6 @@ garnishment
 garnishment's
 garnishments
 garnish's
-garçon
-garçon's
-garçons
 garret
 garret's
 garrets
@@ -44405,8 +44346,6 @@ GCC's
 Gd
 Gdansk
 Gdansk's
-Gödel
-Gödel's
 GDP
 GDP's
 Gd's
@@ -44892,8 +44831,6 @@ getup's
 gewgaw
 gewgaw's
 gewgaws
-Gewürztraminer
-Gewürztraminer's
 Gewurztraminer
 Gewurztraminer's
 geyser
@@ -47020,8 +46957,6 @@ grizzliest
 grizzling
 grizzly
 grizzly's
-Grünewald
-Grünewald's
 groan
 groaned
 groaning
@@ -47314,15 +47249,11 @@ Grus's
 Gruyere
 Gruyere's
 Gruyeres
-Gruyère
-Gruyère's
 G's
 gs
 GSA
 gt
 GTE
-Göteborg
-Göteborg's
 GTE's
 GU
 guacamole
@@ -57280,9 +57211,6 @@ Jake's
 jalapeno
 jalapeno's
 jalapenos
-jalapeño
-jalapeño's
-jalapeños
 jalopies
 jalopy
 jalopy's
@@ -57405,9 +57333,6 @@ jar
 jardiniere
 jardiniere's
 jardinieres
-jardinière
-jardinière's
-jardinières
 Jared
 Jared's
 jarful
@@ -59358,9 +59283,6 @@ kindergartens
 kindergartner
 kindergartner's
 kindergartners
-kindergärtner
-kindergärtner's
-kindergärtners
 kindest
 kindhearted
 kindheartedly
@@ -63908,8 +63830,6 @@ luminosity
 luminosity's
 luminous
 luminously
-Lumière
-Lumière's
 lummox
 lummoxes
 lummox's
@@ -64206,8 +64126,6 @@ ma
 Maalox
 Maalox's
 ma'am
-mañana
-mañana's
 Mabel
 Mabel's
 Mable
@@ -65189,13 +65107,11 @@ manganese
 manganese's
 manga's
 mange
-manège
 manged
 manger
 manger's
 mangers
 mange's
-manège's
 mangetout
 mangetouts
 mangier
@@ -72688,8 +72604,6 @@ NFL
 NFL's
 Ngaliema
 Ngaliema's
-Ångström
-Ångström's
 Nguyen
 Nguyen's
 NH
@@ -78072,7 +77986,6 @@ Paramount's
 paramour
 paramour's
 paramours
-Paraná
 Parana
 Parana's
 paranoia
@@ -78084,7 +77997,6 @@ paranoid
 paranoid's
 paranoids
 paranormal
-Paraná's
 parapet
 parapet's
 parapets
@@ -80881,9 +80793,6 @@ pianos
 piaster
 piaster's
 piasters
-piñata
-piñata's
-piñatas
 piazza
 piazza's
 piazzas
@@ -81363,14 +81272,11 @@ pinyin's
 pinyon
 pinyon's
 pinyons
-piñon
 pioneer
 pioneered
 pioneering
 pioneer's
 pioneers
-piñon's
-piñons
 pious
 piously
 piousness
@@ -83105,9 +83011,6 @@ portioned
 portioning
 portion's
 portions
-portière
-portière's
-portières
 Portland
 Portland's
 portlier
@@ -85590,8 +85493,6 @@ provably
 prove
 proved
 proven
-Provençal
-Provençal's
 provenance
 provenance's
 provenances
@@ -85695,8 +85596,6 @@ Prozac
 Prozac's
 Prozacs
 Pr's
-Pôrto
-Pôrto's
 prude
 Prudence
 prudence
@@ -87487,8 +87386,6 @@ ragingly
 raglan
 raglan's
 raglans
-Ragnarök
-Ragnarök's
 Ragnarok
 Ragnarok's
 ragout
@@ -95762,8 +95659,6 @@ schooner's
 schooners
 Schopenhauer
 Schopenhauer's
-Schrödinger
-Schrödinger's
 Schrieffer
 Schrieffer's
 Schrodinger
@@ -100865,9 +100760,6 @@ smothered
 smothering
 smother's
 smothers
-smörgåsbord
-smörgåsbord's
-smörgåsbords
 Sm's
 smudge
 smudged
@@ -102034,9 +101926,6 @@ Souphanouvong's
 soupier
 soupiest
 souping
-soupçon
-soupçon's
-soupçons
 soup's
 soups
 soupy
@@ -107028,8 +106917,6 @@ Sven's
 Sverdlovsk
 SVN
 SVN's
-Sèvres
-Sèvres's
 SW
 swab
 swabbed
@@ -108237,8 +108124,6 @@ tannery's
 tannest
 Tannhauser
 Tannhauser's
-Tannhäuser
-Tannhäuser's
 tannin
 tanning
 tanning's
@@ -109866,8 +109751,6 @@ Thessalonian's
 Thessalonians
 Thessaloniki
 Thessaloniki's
-Thessaloníki
-Thessaloníki's
 Thessaly
 Thessaly's
 theta
@@ -117228,8 +117111,6 @@ velodromes
 velour
 velour's
 velours
-Velásquez
-Velásquez's
 velum
 velum's
 Velveeta
@@ -117239,8 +117120,6 @@ velveteen
 velveteen's
 velvet's
 velvety
-Velázquez
-Velázquez's
 venal
 venality
 venality's
@@ -117751,9 +117630,6 @@ victualed
 victualing
 victual's
 victuals
-vicuña
-vicuña's
-vicuñas
 vicuna
 vicuna's
 vicunas
@@ -118350,7 +118226,6 @@ voided
 voiding
 void's
 voids
-voilà
 voila
 voile
 voile's
@@ -122891,8 +122766,6 @@ Zosma's
 zoster
 zounds
 Zr
-Zürich
-Zürich's
 Zr's
 Z's
 Zs
